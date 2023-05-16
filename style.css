@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+ul,
+p,
+h2,
+h1 {
+  margin: 0%;
+  padding: 0%;
+
+}
+
+.navbg {
+  width: 100%;
+  height: 35px;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 700px;
+  height: 35px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.navbar img {
+  width: 100px;
+  margin-right: 10px;
+  padding-left: 10px;
+  color: #383838ee;
+  filter: invert(34%) sepia(3%) saturate(1001%) hue-rotate(7deg) brightness(98%) contrast(87%);
+}
+
+.navbar li {
+  display: flex;
+  list-style: none;
+  padding-right: 12px;
+  font-size: 17px;
+  color: rgb(141, 141, 141);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+
+}
+
+.navbar a img {
+  width: 39px;
+}
+
+.navbar li img {
+  width: 30px;
+  margin-left: -8px;
+}
+
+.section {
+  width: 100%;
+  height: 640px;
+}
+
+.sec1 {
+  width: 100%;
+  background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+  height: 91vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec1 li,
+p {
+  color: white;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  margin-left: 60px;
+  padding-top: 25px;
+}
+
+
+.sec2 {
+  background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+  width: 100%;
+  height: 91vh;
+  margin-top: -120px;
+  text-align: end;
+
+}
+
+.sec2 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-right: 53px;
+  padding-top: 169px;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.sec2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin-right: 60;
+
+}
+
+.sec3 {
+  background-color: aliceblue;
+  height: 84vh;
+  margin-top: -112px;
+  width: 100%;
+
+}
+
+.sec4 {
+  background-image:
+    linear-gradient(to left, #000 40%, transparent 58%),
+    url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+  background-position: left top;
+  height: 73vh;
+  text-align: end;
+  align-items: center;
+}
+
+.sec5 {
+  background-image:
+    linear-gradient(to right, #000 40%, transparent 58%),
+    url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+  background-position: right top;
+  height: 75vh;
+
+}
+
+.wrap {
+  width: 675px;
+  float: right;
+  margin-top: 12px;
+
+}
+
+.wrap img {
+  width: 201px;
+  padding-right: 1.5px;
+}
+
+.sec3text {
+  position: absolute;
+
+}
+
+.sec3text p {
+  color: #000;
+}
+
+.sec3 h1 {
+  font-size: 45px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.sec3 p {
+  font-size: 25px;
+  font-weight: 100;
+  padding-top: 20px;
+
+}
+
+.sec1 button,
+.sec5 button {
+  background-color: #0f79af;
+  ;
+  padding: 16px 91px;
+  border: none;
+  margin-left: 60px;
+  margin-top: 17px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.sec4 button,
+.sec2 button {
+  background-color: #0f79ae;
+  ;
+  padding: 16px 96px;
+  border: none;
+  margin-top: 90px;
+  margin-right: 305px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.sec4 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 65 65 0 0;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.sec4 p {
+  font-size: 21px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25px;
+  margin-right: 60;
+}
+
+.sec5 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 80 0 30 60;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.sec5 p {
+  font-size: 19px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-right: 60;
+}
+
+.ftr {
+  width: 100%;
+  height: 130px;
+  background-color: rgb(48, 47, 47);
+  margin-top: 289vh;
+
+}
+
+.ftlogo {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.fttext a {
+  margin-left: 20px;
+  user-select: none;
+  color: #0f79af;
+  font-family: "Amazon Ember";
+}
+
+.fttext p {
+  display: flex;
+  font-size: 13px;
+  font-family: "Amazon Ember";
+  padding-top: 2px;
+  justify-content: center;
+  font-weight: lighter;
+  opacity: 70%;
+  color: #949494;
+  user-select: none;
+}
+
+.wrap img:hover {
+
+  border: rgba(5, 0, 0, 0.712) solid 3px;
+
+}
+
+.navbar li:hover {
+  background-color: #303030;
+  color: rgba(233, 233, 233, 0.911);
+  background: 1000px;
+}
+
+.fta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  margin-top: 26px;
+  position: absolute;
+  background-color: #303030;
+  border-radius: 0 0 5px 5px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: -99;
+}
+
+.dropdown-content a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: rgba(233, 233, 233, 0.911);
+  display: block;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.navbar li:hover .dropdown-content {
+  display: block;
+}
+
+
+.sec1 button:hover {
+  background-color: #1c85b9;
+}
